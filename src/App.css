@@ -1,0 +1,146 @@
+body,html{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid rgb(121, 189, 208); */
+  height: 70px;
+padding-left: 70px;
+/* font-family: cursive; */
+}
+
+ul{
+  display: flex;
+  align-items: center;
+list-style-type: none;
+cursor: pointer;
+padding-right: 100px;
+}
+
+li{
+margin-left: 30px;
+font-weight: 700;
+}
+
+li:hover{
+  color: rgb(98, 180, 239);
+}
+.home{
+  display: flex;
+  flex-direction: column;
+ margin-left: 60px;
+  justify-content: center;
+}
+h1{
+  font-size: 41px;
+  font-weight: 700;
+  /* font-family: cursive; */
+}
+p{
+  font-weight: 700;
+  /* font-family: cursive; */
+  margin-top: -20px;
+}
+
+.home2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+
+
+
+}
+
+.contactbox{
+  height: 100%;
+  width: 50%;
+  margin-left: 200px;
+
+}
+.Vishal{
+  color: white;
+  background-color: rgb(28, 27, 27);
+  height: 40px;
+  margin-right: 15px;
+  font-weight: 700;
+}
+.Vishal:hover{
+  background-color: rgb(47, 45, 45);
+}
+.email{
+  color:black;
+  border: 1px solid black;
+  height: 40px;
+ width: 490px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.emaill{
+  color:rgb(199, 199, 199);
+  background-color: black;
+  border: 1px solid black;
+  height: 40px;
+ width: 490px;
+  font-weight: 700;
+}
+
+.email:hover{
+  background-color: rgb(74, 67, 67);
+  color: white;
+}
+
+button{
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 40px;
+  width: 240px;
+cursor: pointer;
+}
+.img2 img{
+  height: 70%;
+  width: 70%;
+ 
+}
+
+.emaill:hover{
+  color: rgb(250, 26, 10);
+}
+.fome{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+ label{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+input{
+  width: 480px;
+  height: 30px;
+  border-radius: 6px;
+  color: black;
+  font-weight: 700;
+}
+
+.submit{
+  border: 1px solid black;
+  /* margin-left: 248px; */
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+}
+
+.submit:hover{
+  background-color: rgb(79, 74, 74);
+  color: white;
+}
